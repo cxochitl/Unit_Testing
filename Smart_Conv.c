@@ -59,7 +59,8 @@ float hex_to_angle(int hex)
 float hex_to_dec (int hex)
 {
 	float decimal = 0.0F;
-	decimal = (float)(hex);
+	decimal = hex;
+	//decimal = (float)(hex);
 	return decimal;
 }
 
