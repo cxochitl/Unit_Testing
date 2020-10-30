@@ -63,3 +63,8 @@ TEST(test_angle_case, HexToAngleLetter) {
 TEST(test_angle_case, HexToAngleDecimal) {
 	EXPECT_NEAR(183.0F, hex_to_angle(183.6), 0.01);
 }
+
+/*With incorrect input
+TEST(test_angle_case, HexToAngleDecimal) {
+	EXPECT_NEAR(183.0F, hex_to_angle(183.6), 0.01);
+}*/
